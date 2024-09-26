@@ -1,0 +1,19 @@
+html {
+    background-image: url(/game/img/spinning-white.gif);
+    background-size: 50px;
+}
+
+.game-return{
+    color: black;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+a{
+    background-color: transparent;
+}
+
+.game{
+    background-color: white;
+}

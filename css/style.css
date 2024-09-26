@@ -1,0 +1,316 @@
+body{
+    background-color: #000;
+    background-image: url(../img/gifPersonalLogo.gif);
+    background-size: 50px;
+}
+
+a{
+    color: #fff;
+}
+
+nav{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    height: 100%;
+    width: 15%;
+    min-width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+    padding-top: 100px;
+}
+
+nav a{
+    padding: 10%;
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+ 
+    
+}
+
+nav a:hover{
+    color: rgb(0, 0, 255);
+    
+}
+
+.twitter-tweet{
+    margin-right: 15px;
+}
+
+.main{
+    margin-left: 15%;
+    padding: 0 10px;
+}
+
+.container{
+    margin-left: 16%;
+    margin-right: 5%;
+    padding: 0 10px;
+    columns: 4;
+    column-gap: 15px;
+}
+
+.container .box{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1200px){
+    .container{
+        width: calc(100%-20px);
+        columns: 3;
+    }
+}
+
+@media (max-width: 768px){
+    .container{
+        columns: 2;
+    }
+}
+
+.container .box img{
+    max-width: 100%;
+    border-radius: 5px;
+    break-inside: avoid;
+
+}
+
+.container-2{
+    margin-left: 16%;
+    margin-right: 80px;
+    display: flex;
+}
+
+p{
+    color: white;
+}
+
+h1{
+    color: #fff;
+}
+
+h2{
+
+    color: #1635e4;
+}
+
+h3{
+    color: #000;
+    background-color: rgb(255, 217, 0);
+    width: fit-content;
+    padding: 5px;
+}
+
+.gif{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+h2 a{
+    text-decoration: none;
+    color: #1635e4;
+}
+
+.landing-menu a{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 72px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    width: fit-content;
+
+}
+
+.landing-menu a:hover{
+    color: rgb(0, 0, 255);
+    padding-right: 50px;
+    padding-left: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.oops{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.goBack{
+    color: #fff;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.activity-subheader{
+    background-color: #000;
+    display: flex;
+    color: #fff;
+    font-size: 24pt;
+    font-weight: bold;
+    height: max-content;
+    width: max-content;
+    margin: 10px 10px 20px 15%;
+    padding: 10px;
+}
+
+.activity-caption{
+    margin-left: 16%;
+    height: 100%;
+}
+
+.activity-paragraph{
+    display: inline-block;
+    background-color: #000;
+    max-width: 475px;
+    padding: 10px;
+    margin-right: 9px;
+
+}
+
+.oopsie{
+    color: #000;
+    background-color: rgb(172, 255, 47);
+}
+
+.game{
+    background-color: #fff;
+}
+
+.game-return{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+}
+
+.contact{
+    width: auto;
+    height: 1080px;
+    overflow: hidden;
+}
+
+.contact-img{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.introduction-img{
+    margin-left: 35%;
+    margin-top: 200px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.introduction-p{
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 2px 20px;
+}
+
+#introduction-a{
+    margin-top: 90px;
+    margin-left: 137px;
+}
+
+#introduction-b{
+    padding-top: 30px;
+    margin-left: 120px;
+    margin-top: -60px;
+}
+
+#introduction-c{
+    padding-top: 5px;
+    margin-left: 125px;
+    margin-top: 60px;
+}
+
+#introduction-d{
+    padding-top: 10px;
+    margin-left: 650px;
+    margin-top: -600px;
+}
+
+#introduction-e{
+    padding-top: 5px;
+    margin-left: 860px;
+    margin-top: 85px;
+}
+
+#introduction-menu a:hover{
+    color: rgb(226, 38, 38);
+}
+
+#likes-menu a:hover{
+    color: rgb(255, 217, 0);
+}
+
+#activity-menu a:hover{
+    color: rgb(149, 36, 194);
+}
+
+#contact-menu a:hover{
+    color: rgb(255, 0, 200);
+
+}
+
+#contact-menu2 a:hover{
+    color: rgb(255, 0, 200);
+}
+
+#contact-menu2{
+    margin-top: 175px;
+    margin-left: 15%;
+}
+
+#introduction-gif{
+    background-color: rgb(226, 38, 38);
+}
+
+#likes-gif{
+    background-color: rgb(255, 217, 0);
+}
+
+#activity-gif{
+    background-color: rgb(149, 36, 194);
+}
+
+#contact-gif{
+    background-color: rgb(255, 0, 200);
+    position: fixed;
+    top: 0;
+}
+
+#twitter-tweet{
+    margin-right: 15px;
+}
+
+#img-contact{
+    width: 55%;
+    height: auto;
+    z-index: -1;
+}
+
+#contact-options{
+    margin-top: 2%;
+    margin-left: 0;
+}
